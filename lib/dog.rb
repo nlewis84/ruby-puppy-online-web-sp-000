@@ -7,7 +7,7 @@ class Dog
   
   def initialize(name)
     @name = name
-    name.save
+    save
   end
   
   def self.all
@@ -22,7 +22,7 @@ class Dog
     @@all.map { |dog| puts dog.name }
   end
   
-  def self.save
+  def save
     @@all << self
   end
 end
