@@ -21,7 +21,7 @@ class Dog
     @@all.map { |dog| puts dog.name }
   end
   
-  def save
+  def self.save
     @@all << self
   end
 end
