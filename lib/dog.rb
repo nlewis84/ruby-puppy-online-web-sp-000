@@ -19,7 +19,7 @@ class Dog
   end
   
   def self.print_all
-    
+    puts @@all
   end
   binding.pry
 end
